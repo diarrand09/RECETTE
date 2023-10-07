@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"> <span>W</span>aañ_bi</a>
+        <ul class="navbar">
+            <li><a href="ACCUEIL.html">Accueil</a></li>
+            <li><a href="PLATSENEGALAIS.html">PLATS SENEGALAIS</a></li>
+            <li><a href="DESSERTSSENEGALAIS.html">DESSERTS SENEGALAIS</a></li>
+            <li><a href="AMUSE-BOUCHESSENEGALAIS.html">AMUSE-BOUCHES SENEGALAIS</a></li>
+        </ul>
+        <a href="CONNEXION.html" class="btn-reserve">CONNEXION</a>
+    </header>
+    <h1>Beignets de farine</h1><br>
+    <img src="beignets.jpg" alt="" width="500" height="400"> <br><br>
+    <h3>Beignet</h3><br>
+    <p> Difficulté : très facile <br>
+        Coût : pas cher</p><br>
+        <h3>Ingrédients</h3><br>
+        <p>500 g de farine de blé <br>
+            100 g de sucre <br>
+            8 g de levure sèche (ou boulangère) <br>
+            250 ml d'eau (tiède) <br>
+            1 pincée de sel <br>
+            Huile végétale (pour friture)</p><br>
+            <h3>Préparation</h3><br>
+            <p>Dans un bol, mettre la levure et diluez-la dans un peu d’eau tiède avec le sel. Diluez le sucre dans l'eau tiède restante. <br>
+                Dans une cuvette, mettre la farine tamisée. Faites au centre de la farine, un puits et versez la levure préalablement diluée, ensuite l’eau sucrée et bien mélangez le tout à la main jusqu'à obtention d'une pâte lisse et homogène. <br>
+                Couvrir et laissez reposer la pâte pendant 2 à 3 heures. Après le temps de repos, la pâte aura doublé voire triplé de volume. <br>
+                Faites chauffer l’huile et versez la pâte à l’aide de votre main en la coupant avec vos doigts ( technique un peu difficile). Faites frire les beignets 5 à 10 minutes en les retournant constamment. Retirez et égouttez quand c'est cuit. <br>C'est pret</p><br>
+                <h3>Service:</h3>
+                <p>Poser les beignets sur une assiette ou un bol avec un verre de lait à côté. Parsemer de sucre glace si vous le souhaitez
+                </p><br><br>
+                <p>Bon appétit 🙂</p><br>
+                <h3>Pour plus de details vous pouvez visualiser cette vidéo</h3><br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/n786rAtTWLg?si=EXPh7o-BhoqW0s2h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <section class="recipe-reviews">
+                    <h3>Avis des utilisateurs</h3>
+                    <ul id="user-reviews">
+
+                    </ul>
+                    <div class="add-review">
+                        <h4>Ajouter un avis</h4><br>
+                        <form id="review-form">
+                            <label for="username">Nom d'utilisateur:</label>
+                            <input type="text" id="username" required>
+                
+                            <label for="review">Avis:</label>
+                            <textarea id="review" rows="4" required></textarea><br>
+                
+                            <button type="button" onclick="submitReview()">Soumettre l'avis</button>
+                        </form>
+                    </div>
+                </section>
+                
+                <script src="site.js"></script>
+
+</body>

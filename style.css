@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+p{
+    display: flex;
+    
+}
+body {
+    margin: 40px; 
+    padding: 45px;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 15px;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.logo{
+   
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+    color:rgb(82, 6, 153);
+}.logo span{
+    color:#fd911f;
+}
+.navbar{
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+ 
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.btn-reserve{
+    padding: 10px 20px;
+    background: #fd911f;
+    margin-top: 5px;
+   text-decoration: none;
+   
+   
+}
+.btn-reserve:hover{
+    background: #d87710;
+   
+}
+header .navbar li a:hover{
+    color: #fd911f;
+    border-bottom: 2px solid #fd911f;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 40px 20px;
+    grid-column-gap:20px;
+    grid-row-gap: 30px;
+}
+.item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+
+}
+.item img:hover{
+    transform: scale(1.04);
+}
+.item h4{
+    padding: 5px;
+    text-align: center;
+}
+.item button{
+    padding: 5px 30px;
+    border: none;
+    background-color: #fd911f;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all;
+    
+}
+.item button:hover{
+    transform: scale(1.08);
+   
+}
+.button-link {
+    text-decoration: none;
+}
+
+
+.login-section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-container h2 {
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #fd911f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #d87710;
+}
+
+.recipe-reviews {
+    margin-top: 40px;
+}
+
+#user-reviews {
+    list-style: none;
+    padding: 0;
+}
+
+#user-reviews li {
+    margin-bottom: 10px;
+}
+
+.add-review {
+    margin-top: 20px;
+}
+.add-review h4{
+    text-align: center;
+}
+
+.add-review form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-review label {
+    margin-bottom: 5px;
+}
+
+.add-review textarea {
+    resize: vertical;
+}
+
+.sectbienvenue {
+   
+    color:black;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.contbienvenue {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contbienvenue h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color:rgb(72, 5, 134);
+}
+
+.contbienvenuep {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+.platfav{
+    text-align: center;
+    font-size: 2em;
+    margin: 5px ;
+    color:rgb(72, 5, 134);
+}
+
+
+
+
+footer {
+    background-color: #f6f4f2;
+    color:rgb(72, 5, 134);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.pied {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.pied p {
+    margin: 5px 0;
+}
+
+.pied h3 {
+    margin-top: 10px;
+    color: #fd911f;
+    
+}

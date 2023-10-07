@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"> <span>W</span>aañ_bi</a>
+        <ul class="navbar">
+            <li><a href="ACCUEIL.html">Accueil</a></li>
+            <li><a href="PLATSENEGALAIS.html">PLATS SENEGALAIS</a></li>
+            <li><a href="DESSERTSSENEGALAIS.html">DESSERTS SENEGALAIS</a></li>
+            <li><a href="AMUSE-BOUCHESSENEGALAIS.html">AMUSE-BOUCHES SENEGALAIS</a></li>
+        </ul>
+        <a href="CONNEXION.html" class="btn-reserve">CONNEXION</a>
+    </header>
+    <h1>Guerté soukeur</h1> <br>
+    <img src="guertésoukeur.jpg" alt="" width="500" height="400"><br><br>
+    <h3>Arachide caramélisé</h3><br>
+    <p>Coût: pas cher <br>
+        Difficulté: moyenne</p><br>
+        <h3>Ingrédients</h3><br>
+        <p>1|2 kg d'arachide crues avec peau.
+            300ml d'eau
+            250g de sucre
+            </p><br>
+            <h3>Préparation:</h3><br>
+            <p>Mettre tous les ingrédients dans une marmite à fond épais (genre cocotte minute), et faire cuire sur feu doux. <br> <br>Après 15 ou 20 minutes, une mousse apparaitra, remuer hors feu, puis remettre la marmite encore une fois sans cesser de remuer jusqu’à absorption total de toute trace d’eau. <br><br>A la fin, vous aurez un liquide comme du miel, continuer à remuer jusqu’à ce tout ce miel deviendra sec comme du sable <br><br> En ce moment là vos cacahuètes sont prêtes.
+                Laisser refroidir avant de déguster</p><br><br>
+               <p>Bonne dégustation🙂</p><br>
+               <h3>Pour plus de details vous pouvez visualiser cette vidéo</h3><br>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/ljzdqni_tE8?si=oR-jo6xiV8bHF2Jw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+               <section class="recipe-reviews">
+                <h3>Avis des utilisateurs</h3>
+                <ul id="user-reviews">
+
+                </ul>
+                <div class="add-review">
+                    <h4>Ajouter un avis</h4><br>
+                    <form id="review-form">
+                        <label for="username">Nom d'utilisateur:</label>
+                        <input type="text" id="username" required>
+            
+                        <label for="review">Avis:</label>
+                        <textarea id="review" rows="4" required></textarea><br>
+            
+                        <button type="button" onclick="submitReview()">Soumettre l'avis</button>
+                    </form>
+                </div>
+            </section>
+            
+            <script src="site.js"></script>
+</body>
